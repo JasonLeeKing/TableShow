@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 模板常绿乔木 油松 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.jxxy.tableshow.view.TitleView
+        android:id="@+id/inspection_bill_write_topbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.85"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+              <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="合同编号"
+                    android:textSize="16dip" />
+
+               <TextView
+                    android:hint="点击选择"
+                    android:id="@+id/et_inspection_bill_wirite_htbh"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="提交单位"
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_inspection_bill_wirite_tjdw"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="提交时间"
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_inspection_bill_wirite_tjsj"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="项目名称"
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_inspection_bill_wirite_xmmc"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+          
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="项目代号"
+                    android:textSize="16dip" />
+
+                 <EditText
+                    android:id="@+id/et_inspection_bill_wirite_xmdh"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="提交次数"
+                    android:textSize="16dip" />
+
+               <EditText
+                    android:id="@+id/et_inspection_bill_wirite_tjcs"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="产品名称"
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_inspection_bill_wirite_cpmc"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="提交数量"
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_inspection_bill_wirite_tjsl"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="提交批次"
+                    android:textSize="16dip" />
+
+               <EditText
+                    android:id="@+id/et_inspection_bill_wirite_tjpc"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="产品编号"
+                    android:textSize="16dip" />
+
+               <EditText
+                    android:id="@+id/et_inspection_bill_wirite_cpbh"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="提交单位校验结论"
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_inspection_bill_wirite_tjdwxyjl"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="校验条件审查"
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_inspection_bill_wirite_xytjsc"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="校验场所"
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_inspection_bill_wirite_xycs"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="校验标准"
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_inspection_bill_wirite_xybz"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="提交条件审查意见"
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_inspection_bill_wirite_tjtjscyj"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="质检组审查"
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_inspection_bill_wirite_zjzsc"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="审查日期"
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_inspection_bill_wirite_scrq"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="验收结论"
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_inspection_bill_wirite_ysjl"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="质检组验收"
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_inspection_bill_wirite_zjzys"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="验收日期"
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_inspection_bill_wirite_ysrq"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

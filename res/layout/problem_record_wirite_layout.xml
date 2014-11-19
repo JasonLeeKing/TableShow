@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 模板常绿乔木 油松 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/problem_record_wirite_root"
+    android:orientation="vertical" >
+
+    <com.jxxy.tableshow.view.TitleView
+        android:id="@+id/problem_record_wirite_topbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.85"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+			
+             <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="承制单位"
+                    android:textSize="16dip" />
+
+                <Button
+                    android:id="@+id/et_problem_record_wirite_czdw"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            
+ 		<LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="合同编号"
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/et_problem_record_wirite_htbh"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    android:hint="点击选择"
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            
+ 		<LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="产品编号"
+                    android:textSize="16dip" />
+
+               <EditText
+                    android:id="@+id/et_problem_record_wirite_cpbh"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+           
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="问题发生日期"
+                    android:textSize="16dip" />
+
+                 <Button
+                    android:id="@+id/et_problem_record_wirite_wtfsrq"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="问题发生地点"
+                    android:textSize="16dip" />
+
+               <EditText
+                    android:id="@+id/et_problem_record_wirite_wtfsdd"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            
+              <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="器材设备名称"
+                    android:textSize="16dip" />
+
+                <Button
+                    android:id="@+id/et_problem_record_wirite_cpxhmc"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            
+              
+               <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="规格型号"
+                    android:textSize="16dip" />
+
+                <Button
+                     android:id="@+id/et_problem_record_wirite_ggxh"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            
+               
+                <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="器材设备代码"
+                    android:textSize="16dip" />
+
+                <Button
+                     android:id="@+id/et_problem_record_wirite_qcsbdm"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+              
+              
+              
+              
+              
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="质量问题描述"
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_problem_record_wirite_zlwtms"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="质检组确认"
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_problem_record_wirite_zjzqr"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="质检组确认日期"
+                    android:textSize="16dip" />
+
+               <Button
+                    android:id="@+id/et_problem_record_wirite_zjzqrrq"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="承制单位确认"
+                    android:textSize="16dip" />
+
+               <EditText
+                    android:id="@+id/et_problem_record_wirite_czdwqr"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="承制单位确认日期"
+                    android:textSize="16dip" />
+
+                <Button
+                    android:id="@+id/et_problem_record_wirite_czdwqrrq"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

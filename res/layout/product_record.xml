@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/product_record_root"
+    android:orientation="vertical" >
+     <com.jxxy.tableshow.view.TitleView
+        android:id="@+id/product_record_topbar"
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+     <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="器材设备名称："
+                    android:textSize="16dip" />
+
+                <Button
+                    android:id="@+id/et_qcsbmc"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="合同编号："
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:hint="点击选择"
+                    android:id="@+id/et_htbh"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="订购数量："
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_htsl"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="受检产品编号:"
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_sjcpbh"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="本次验收数量："
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_bctjsl"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="承制单位："
+                    android:textSize="16dip" />
+
+                <Button
+                    android:id="@+id/et_tjdw"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="产品批次号："
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_scrq"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="检验日期:"
+                    android:textSize="16dip" />
+
+                <Button
+                    android:id="@+id/et_jyrq"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+
+           <!--  <Button 
+                android:id="@+id/btn_product_record"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dip"
+                android:text="检验项目记录"
+                /> -->
+        </LinearLayout>
+    </ScrollView>
+    
+
+</LinearLayout>

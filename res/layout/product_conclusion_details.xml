@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/product_conclusion_details_root"
+    android:orientation="vertical" >
+     <com.jxxy.tableshow.view.TitleView
+        android:id="@+id/product_conclusion_details_topbar"
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+     <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="检验项目："
+                    android:textSize="16dip" />
+
+                <Button
+                    android:hint="必填项"
+                    android:id="@+id/et_conclusionDetails_jyxm"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="技术要求："
+                    android:textSize="16dip" />
+
+                <Button
+                    android:id="@+id/et_conclusionDetails_jsyq"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="检测结果："
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_conclusionDetails_jcjg"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="检验结论:"
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_conclusionDetails_jcjl"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="验收人员："
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_conclusionDetails_zjzqz"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="备注:"
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_conclusionDetails_bz"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="质检组验收结论:"
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_conclusionDetails_zjzysjl"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="质检组成员签名:"
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_conclusionDetails_zjzcyqm"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="检验地点"
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/et_conclusionDetails_jydd"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="规格型号"
+                    android:textSize="16dip" />
+
+                <Button
+                    android:id="@+id/et_conclusionDetails_ggxh"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="器材设备代码："
+                    android:textSize="16dip" />
+
+                <Button
+                    android:id="@+id/et_conclusionDetails_qcsbdm"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="日期"
+                    android:textSize="16dip" />
+
+                <Button
+                    android:id="@+id/et_conclusionDetails_rq"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="0.43"
+                    android:gravity="center_vertical"
+                    android:maxLength="10"
+                    android:paddingLeft="9dip"
+                    android:paddingRight="15dip"
+                    android:textSize="16dip" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+    
+
+</LinearLayout>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 表格标题 -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="22dip"
+        android:layout_marginTop="10dip"
+        android:gravity="center_horizontal"
+        android:text="产品质量技术问题记录表"
+        android:textSize="20dip"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:orientation="vertical" >
+
+            <!-- 表格头 填写单位 填写日期 -->
+
+            <LinearLayout
+                android:id="@+id/problem_table_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="填写单位:" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dip"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="填写日期:" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dip"
+                    android:layout_weight="1" />
+            </LinearLayout>
+            <!-- 表格正文 -->
+
+            <LinearLayout
+                android:id="@+id/layout_row_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/problem_table_title"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/table_bg"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.4"
+                    android:background="@drawable/table_bg"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="8dip"
+                    android:text="承制单位  " />
+
+                <EditText
+                    android:id="@+id/promblem_row_1_1"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="8dip" />
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.4"
+                    android:background="@drawable/table_bg"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="8dip"
+                    android:text="合同编号  " />
+
+                <EditText
+                    android:id="@+id/promblem_row_1_2"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="8dip" />
+            </LinearLayout>
+            <!-- row2 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_row_1"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/table_bg"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.4"
+                    android:background="@drawable/table_bg"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="8dip"
+                    android:text="产品型号名称" />
+
+                <EditText
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="8dip" />
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.4"
+                    android:background="@drawable/table_bg"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="8dip"
+                    android:text="产品编号  " />
+
+                <EditText
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="8dip" />
+            </LinearLayout>
+
+            <!-- row3 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_row_2"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/table_bg"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.4"
+                    android:background="@drawable/table_bg"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="8dip"
+                    android:text="问题发生日期" />
+
+                <EditText
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="8dip" />
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.4"
+                    android:background="@drawable/table_bg"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="8dip"
+                    android:text="问题发生地点" />
+
+                <EditText
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="8dip" />
+            </LinearLayout>
+            <!-- row4 -->
+
+            <LinearLayout
+                 android:background="@drawable/table_bg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip" 
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="质量技术问题情况描述："
+                    />
+                <EditText 
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    />
+                
+                <LinearLayout 
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:orientation="horizontal"
+                    >
+                    <TextView 
+                        android:layout_weight="1"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        />
+                    <TextView 
+                        android:text="质检组（签字）："
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        />
+                    <EditText 
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dip"
+                        android:layout_weight="0.7"
+                        />
+                    
+                     <EditText 
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dip"
+                        android:layout_weight="0.2"
+                        />
+                      <TextView 
+                        android:text="年"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        />
+                      <EditText 
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dip"
+                        android:layout_weight="0.2"
+                        />
+                      <TextView 
+                        android:text="月"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        />
+                       <EditText 
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dip"
+                        android:layout_weight="0.2"
+                        />
+                      <TextView 
+                        android:text="日"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            
+            
+            <LinearLayout
+                 android:background="@drawable/table_bg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip" 
+                android:orientation="horizontal">
+              
+                
+                    <TextView 
+                        android:layout_weight="1"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        />
+                    <TextView 
+                        android:text="承制单位确认（签字）："
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        />
+                    <EditText 
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dip"
+                        android:layout_weight="0.7"
+                        />
+                    
+                     <EditText 
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dip"
+                        android:layout_weight="0.2"
+                        />
+                      <TextView 
+                        android:text="年"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        />
+                      <EditText 
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dip"
+                        android:layout_weight="0.2"
+                        />
+                      <TextView 
+                        android:text="月"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        />
+                       <EditText 
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dip"
+                        android:layout_weight="0.2"
+                        />
+                      <TextView 
+                        android:text="日"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        />
+            </LinearLayout>
+            
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    >
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0DBD6"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="合同编号" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="监督时间" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="承制单位" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1.3"
+                android:gravity="center"
+                android:text="承制单位陪同人" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1.3"
+                android:gravity="center"
+                android:text="器材设备名称" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1.3"
+                android:gravity="center"
+                android:text="监督结论" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1.3"
+                android:gravity="center"
+                android:text="监督人" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1.3"
+                android:gravity="center"
+                android:text="规格型号" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1.3"
+                android:gravity="center"
+                android:text="器材设备代码" />
+            
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/supervise_examine_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="8"
+            android:divider="#999999"
+            android:dividerHeight="1dip"
+            android:scrollbars="none" />
+
+        <Button
+            android:id="@+id/btn_add_supervise_examine"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1.5"
+            android:text="添加监督情况" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/supervise_condition_frament"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+    </FrameLayout>
+
+</LinearLayout>

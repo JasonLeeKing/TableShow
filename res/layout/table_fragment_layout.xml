@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_contract_details_bt"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|center_vertical"
+                android:paddingBottom="8dip"
+                android:paddingTop="8dip"
+                android:text="任务简介"
+                android:textColor="@android:color/white"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_quality_problem_bt"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|center_vertical"
+                android:paddingBottom="8dip"
+                android:paddingTop="8dip"
+                android:text="质量问题记录表"
+                android:textColor="@android:color/white"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_product_record_bt"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:gravity="center_horizontal|center_vertical"
+                android:paddingBottom="8dip"
+                android:paddingTop="8dip"
+                android:text="质量检验验收记录表"
+                android:textColor="@android:color/white"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_supervise_examine_bt"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:gravity="center_horizontal|center_vertical"
+                android:paddingBottom="8dip"
+                android:paddingTop="8dip"
+                android:text="质量监督检查记录表"
+                android:textColor="@android:color/white"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_check_problem_vt"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:gravity="center_horizontal|center_vertical"
+                android:paddingBottom="8dip"
+                android:paddingTop="8dip"
+                android:text="产品检验验收发现问题汇总表"
+                android:textColor="@android:color/white"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#393939" />
+
+        <FrameLayout
+            android:id="@+id/body_fragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </FrameLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/contract_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/os_button_grouped"
+        android:gravity="center_vertical"
+        android:padding="10dip"
+        android:text="导出此任务"
+        android:textSize="19dp" />
+
+</LinearLayout>
